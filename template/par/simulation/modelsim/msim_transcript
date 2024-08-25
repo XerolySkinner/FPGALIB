@@ -1,0 +1,48 @@
+# Reading D:/SOFTWARE/modeltech64_10.4/tcl/vsim/pref.tcl
+# error: Layout::Clairvoyance can't read "map(å)": no such element in array
+# can't read "map(å)": no such element in array
+#     while executing
+# "Layout::Clairvoyance"
+# //  ModelSim SE-64 10.4 Dec  3 2014 
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# do template_run_msim_rtl_verilog.do
+# if ![file isdirectory verilog_libs] {
+# 	file mkdir verilog_libs
+# }
+# 
+# vlib verilog_libs/altera_ver
+# ** Warning: (vlib-34) Library already exists at "verilog_libs/altera_ver".
+# 
+# vmap altera_ver ./verilog_libs/altera_ver
+# Model Technology ModelSim SE-64 vmap 10.4 Lib Mapping Utility 2014.12 Dec  3 2014
+# vmap -modelsim_quiet altera_ver ./verilog_libs/altera_ver 
+# Modifying D:/SOFTWARE/modeltech64_10.4/win64/../modelsim.ini
+# vlog -vlog01compat -work altera_ver {d:/software/intelfpga/18.0/quartus/eda/sim_lib/altera_primitives.v}
+# Model Technology ModelSim SE-64 vlog 10.4 Compiler 2014.12 Dec  3 2014
+# Start time: 08:34:33 on Apr 03,2024
+# vlog -reportprogress 300 -vlog01compat -work altera_ver d:/software/intelfpga/18.0/quartus/eda/sim_lib/altera_primitives.v 
+# init_dbinfo() DATABASE ERROR: (sqlite3_open D:/¹¤×÷¿â/GitHub/FPGALIB/template/par/simulation/modelsim/verilog_libs/altera_ver/_lib.qdb): unable to open database file
+# mtilibWrite(): Unexpected null object encountered
+# ** Fatal: (vlog-9) Problem while writing token file "D:/¹¤×÷¿â/GitHub/FPGALIB/template/par/simulation/modelsim/verilog_libs/altera_ver/_temp/vlogdfihf6".
+# 
+# ÏµÍ³ÕÒ²»µ½Ö¸¶¨µÄÎÄ¼þ¡£ (GetLastError() = 2)
+# ** Error: d:/software/intelfpga/18.0/quartus/eda/sim_lib/altera_primitives.v(34): Verilog Compiler exiting
+# End time: 08:34:33 on Apr 03,2024, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: D:/SOFTWARE/modeltech64_10.4/win64/vlog failed.
+# Error in macro ./template_run_msim_rtl_verilog.do line 8
+# D:/SOFTWARE/modeltech64_10.4/win64/vlog failed.
+#     while executing
+# "vlog -vlog01compat -work altera_ver {d:/software/intelfpga/18.0/quartus/eda/sim_lib/altera_primitives.v}"
